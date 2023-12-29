@@ -21,16 +21,14 @@ func main(){
 	fmt.Println(x) // 10
 	fmt.Println(p) // 0xc0000a4008
 
-	editar(&x)
+	editar(&x) // le paso la dirección de memoria de x
 	fmt.Println(x) // 20
 
 	// ! PERSONA
 	p1 := Persona{"Juan", 20, "juan@g.com"}
-	p1.saludar() //accedo al metodo mediante la instacia de la persona 
+	p1.saludar() //accedo al metodo mediante la instacia de la persona // Imprime -> Hola mi nombre es Juan
 	
-	
-	
-	
+
 }
 
 //! LAS FUNCIONES SON INDEPENDIENTES

@@ -17,7 +17,7 @@ func main(){
 	//! agrego un nuevo color
 	colors["yellow"] = "#lakjsdf"
 
-	fmt.Println(colors["white"]) // #ffffff
+	fmt.Println(colors["white"]) // #ffffff -> le paso la CLAVE y me devuelve el VALOR
 	fmt.Println(colors) // map[green:#4bf745 red:#ff0000 white:#ffffff yellow:#lakjsdf]
 
 	//! guardo el valor de un color en una variable
